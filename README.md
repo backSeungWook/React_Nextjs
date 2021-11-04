@@ -1,4 +1,4 @@
-# Next.js
+# Next.js(블로그 만들기)
 ```
 npx create-next-app `project-name`
 ```
