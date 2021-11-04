@@ -4,13 +4,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.21.7",
+    "antd": "^4.16.13",
+    "dayjs": "^1.10.7",
     "next": "12.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-syntax-highlighter": "^15.4.4"
   },
   "devDependencies": {
     "eslint": "7.32.0",
